@@ -1,0 +1,95 @@
+body{
+	background: linear-gradient(to bottom, purple, pink);
+	min-height: 750px;
+}
+#Header{
+	text-align: center;
+	background-color: pink;
+	width: 300px;
+	height: 50: auto;
+}
+.head_image{
+	width: 180px;
+	height: 180px;
+	border-radius: 50px;
+	box-shadow: 5px 5px 5px 5px;
+	transition: all 1s;
+}
+.head_image:hover{
+	transform: scale(1.2);
+}
+ul{
+	list-style: none;
+	font-size: 20px;
+	padding-left: 385px;
+	background-color: yellowgreen;
+	overflow: hidden;
+	text-align: center;
+}
+li{
+	float: left;
+	padding: 40px;
+	text-align: center;
+}
+li a{
+	display: yellow;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+li a:hover{
+    background-color: blue;
+}
+ #profile{
+ 	text-align: center;
+ 	font-style: italic;
+ 	font-size: 30px;
+ 	color:white;
+ 	width: 250px;
+ 	height: 110px;
+ 	margin-left: 40%;
+ }
+ #profile:hover{
+ 	text-align: center;
+ 	color: darkred;
+ }
+ #info img{
+ 	width: 50px;
+ 	height: 50px;
+ 	margin-left: 215px;
+ 	transition: 1s;
+ 	cursor: pointer;
+ }
+ #info img:hover{
+ 	transform: scale(1.5);
+ }
+ #info label{
+ 	margin-left: 170px;
+ }
+ #img{
+ 	margin-left: 400px;
+ }
+ #img img{
+ 	height: 200px;
+ 	width: 220px;
+ 	
+ 	transition: all 1s;
+ 	border-radius: 5px;
+ }
+ #img img:hover{
+ 	border-radius: 50%;
+ }
+ h3{
+ 	text-align: center;
+ 	font-size: 40px;
+ 	font-style: bold italic;
+ }
+ p{
+ 	text-align: center;
+ 	font-size: 30px;
+ 	font-style: italic;
+ 	color: blue;
+ }
+ p:hover{
+ 	color: red;
+ }
